@@ -1,38 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.App-header {
+  background-color: #1f1f1f;
+  padding: 1.5rem;
+  color: #e0e0e0;
+  border-bottom: 2px solid #333;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.menu, .content {
+  background: #1e1e1e;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  flex: 1 1 320px;
+  max-width: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu h2, .content h2 {
+  margin-bottom: 1rem;
+  color: #ff5722;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0.5rem 0;
+}
+
+.menu button {
+  background: #ff5722;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  transition: background 0.3s;
+  color: #fff;
+}
+
+.menu button:hover {
+  background: #e64a19;
+}
+
+.add-button {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.add-button:hover {
+  background: #43a047;
+}
+
+.gun-list {
+  list-style: none;
+  padding: 0;
+}
+
+.gun-card {
+  background: #2a2a2a;
+  margin: 0.75rem 0;
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+  transition: transform 0.2s;
+}
+
+.gun-card:hover {
+  transform: translateY(-3px);
+}
+
+.gun-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 1rem;
+  border: 2px solid #ff5722;
+}
+
+.gun-details {
+  text-align: left;
 }
