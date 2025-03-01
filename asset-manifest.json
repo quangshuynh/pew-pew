@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pew-pew/static/css/main.910cc0e3.css",
-    "main.js": "/pew-pew/static/js/main.fbcded0f.js",
+    "main.css": "/pew-pew/static/css/main.b782556a.css",
+    "main.js": "/pew-pew/static/js/main.1ec4ff56.js",
     "static/js/453.4be05351.chunk.js": "/pew-pew/static/js/453.4be05351.chunk.js",
     "static/media/remington870.png": "/pew-pew/static/media/remington870.582391f4aa06eea67511.png",
     "static/media/colt 1911.png": "/pew-pew/static/media/colt 1911.8590090694e803649023.png",
@@ -13,13 +13,13 @@
     "static/media/m&p 5.7.webp": "/pew-pew/static/media/m&p 5.7.4f77c1622a55bfef399c.webp",
     "static/media/mp5.png": "/pew-pew/static/media/mp5.2e13d54e24e424c6307c.png",
     "static/media/combatmaster.png": "/pew-pew/static/media/combatmaster.86b035a6b3a7bc19f095.png",
-    "static/media/.45 acp.png": "/pew-pew/static/media/.45 acp.89699a5533197b29c8d4.png",
+    "static/media/45 acp.png": "/pew-pew/static/media/45 acp.89699a5533197b29c8d4.png",
     "static/media/7.62x39.png": "/pew-pew/static/media/7.62x39.23d8036bcab386d1293b.png",
     "static/media/5.56x45.png": "/pew-pew/static/media/5.56x45.46da2a233c01ee2742f2.png",
     "static/media/mauser c96.png": "/pew-pew/static/media/mauser c96.3a5d11b38f0d6fed20c8.png",
     "static/media/7.63x25.png": "/pew-pew/static/media/7.63x25.c62470afac8c64857d3d.png",
     "static/media/shotgun.hollow-regular.ttf": "/pew-pew/static/media/shotgun.hollow-regular.d1b16621dc71f3513e35.ttf",
-    "static/media/.50 ae.png": "/pew-pew/static/media/.50 ae.670c97fbd6f8831bad88.png",
+    "static/media/50 ae.png": "/pew-pew/static/media/50 ae.670c97fbd6f8831bad88.png",
     "static/media/9mm.png": "/pew-pew/static/media/9mm.1fdd9aca01e5bb9e8cc7.png",
     "static/media/5.7x28.png": "/pew-pew/static/media/5.7x28.cefc6e869aaacafd511b.png",
     "static/media/ak-50.png": "/pew-pew/static/media/ak-50.b64147652882482be3b3.png",
@@ -29,12 +29,12 @@
     "static/media/gunmetal.regular.ttf": "/pew-pew/static/media/gunmetal.regular.bc760098f694b5906fd5.ttf",
     "static/media/gunslinger.regular.ttf": "/pew-pew/static/media/gunslinger.regular.7e79c9233ab2853809c1.ttf",
     "index.html": "/pew-pew/index.html",
-    "main.910cc0e3.css.map": "/pew-pew/static/css/main.910cc0e3.css.map",
-    "main.fbcded0f.js.map": "/pew-pew/static/js/main.fbcded0f.js.map",
+    "main.b782556a.css.map": "/pew-pew/static/css/main.b782556a.css.map",
+    "main.1ec4ff56.js.map": "/pew-pew/static/js/main.1ec4ff56.js.map",
     "453.4be05351.chunk.js.map": "/pew-pew/static/js/453.4be05351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.910cc0e3.css",
-    "static/js/main.fbcded0f.js"
+    "static/css/main.b782556a.css",
+    "static/js/main.1ec4ff56.js"
   ]
 }
