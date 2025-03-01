@@ -1,6 +1,28 @@
 import React, { useState } from 'react';
 import './App.css';
 
+import nineMM from './assets/ammo/9mm.png';
+import twelvegauge from './assets/ammo/12gauge.png';
+import sevensixtwo from './assets/ammo/7.62x39.png';
+import fivefivesix from './assets/ammo/5.56x45.png';
+
+import glock from './assets/guns/glock17.png';
+import remington from './assets/guns/remington870.png';
+import ak from './assets/guns/ak47.png';
+import mp from './assets/guns/mp5.png';
+import mtwofournine from './assets/guns/m249.webp';
+
+const ammoImages = {
+  '9mm': nineMM,
+  '7.62x39mm': sevensixtwo,
+  '12 Gauge': twelvegauge,
+  '5.56x45mm NATO': fivefivesix
+};
+
+const getAmmoImage = (ammoType) => {
+  return ammoImages[ammoType] || 'https://via.placeholder.com/50?text=Ammo';
+};
+
 const initialGuns = {
   handguns: [
     { 
@@ -8,16 +30,16 @@ const initialGuns = {
       name: 'Glock 17', 
       description: 'A reliable semi-automatic handgun.', 
       ammo: ['9mm'],
-      image: 'https://assets.basspro.com/image/upload/c_limit,dpr_1.0,f_auto,h_562,q_auto,w_900/c_limit,h_562,w_900/v1/ProductImages/450/master1_10218314_main?pgw=1'
+      image: glock
     },
   ],
   rifles: [
     { 
       id: 2, 
-      name: 'M4 Carbine', 
+      name: 'AK-47', 
       description: 'A popular military assault rifle.', 
-      ammo: ['5.56 NATO'],
-      image: 'https://via.placeholder.com/150?text=M4+Carbine'
+      ammo: ['7.62x39mm'],
+      image: ak
     },
   ],
   shotguns: [
@@ -26,7 +48,7 @@ const initialGuns = {
       name: 'Remington 870', 
       description: 'A pump-action shotgun known for its durability.', 
       ammo: ['12 Gauge'],
-      image: 'https://via.placeholder.com/150?text=Remington+870'
+      image: remington
     },
   ],
   smgs: [
@@ -35,7 +57,7 @@ const initialGuns = {
       name: 'MP5', 
       description: 'A widely used submachine gun.', 
       ammo: ['9mm'],
-      image: 'https://via.placeholder.com/150?text=MP5'
+      image: mp
     },
   ],
   machineguns: [
@@ -43,8 +65,8 @@ const initialGuns = {
       id: 5, 
       name: 'M249', 
       description: 'A light machine gun used for sustained fire.', 
-      ammo: ['5.56 NATO'],
-      image: 'https://via.placeholder.com/150?text=M249'
+      ammo: ['5.56x45mm NATO'],
+      image: mtwofournine
     },
   ],
 };
@@ -57,7 +79,7 @@ function App() {
     const gunName = prompt('Enter gun name:');
     const description = prompt('Enter a description:');
     const ammoInput = prompt('Enter ammo types (comma separated):');
-    const image = prompt('Enter image URL:');
+    const image = prompt('Enter image URL for the gun:');
     if (gunName && description && ammoInput && image) {
       const newGun = {
         id: Date.now(), 
@@ -105,9 +127,21 @@ function App() {
                     <div className="gun-details">
                       <h3>{gun.name}</h3>
                       <p>{gun.description}</p>
-                      <p>
-                        <strong>Ammo Types:</strong> {gun.ammo.join(', ')}
-                      </p>
+                      <div className="ammo-container">
+                        <strong>Ammo Types:</strong>
+                        <ul className="ammo-list">
+                          {gun.ammo.map((ammo, index) => (
+                            <li key={index} className="ammo-item">
+                              <img 
+                                src={getAmmoImage(ammo)} 
+                                alt={ammo} 
+                                className="ammo-image" 
+                              />
+                              <span>{ammo}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
                   </li>
                 ))}
