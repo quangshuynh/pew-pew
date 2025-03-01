@@ -13,3 +13,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'gunmetal';
+  src: url('../public/fonts/gunmetal.regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gunslinger';
+  src: url('../public/fonts/gunslinger.regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'shotgun';
+  src: url('../public/fonts/shotgun.hollow-regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import styled from 'styled-components';
+
 import './App.css';
 
 import nineMM from './assets/ammo/9mm.png';
@@ -12,6 +14,22 @@ import ak from './assets/guns/ak47.png';
 import mp from './assets/guns/mp5.png';
 import mtwofournine from './assets/guns/m249.webp';
 
+const Title = styled.h1`
+font-family: 'gunmetal', sans-serif;
+font-size: 5rem;
+color: #D20A2E;
+text-align: center;
+margin: 0;
+`;
+
+const GunTypesText = styled.h1`
+font-family: 'gunslinger', sans-serif;
+font-size: 2rem;
+color: #ff5722;
+text-align: center;
+margin: 0;
+`;
+
 const ammoImages = {
   '9mm': nineMM,
   '7.62x39mm': sevensixtwo,
@@ -24,7 +42,7 @@ const getAmmoImage = (ammoType) => {
 };
 
 const initialGuns = {
-  handguns: [
+  Handguns: [
     { 
       id: 1, 
       name: 'Glock 17', 
@@ -33,7 +51,7 @@ const initialGuns = {
       image: glock
     },
   ],
-  rifles: [
+  Rifles: [
     { 
       id: 2, 
       name: 'AK-47', 
@@ -42,7 +60,7 @@ const initialGuns = {
       image: ak
     },
   ],
-  shotguns: [
+  Shotguns: [
     { 
       id: 3, 
       name: 'Remington 870', 
@@ -51,7 +69,7 @@ const initialGuns = {
       image: remington
     },
   ],
-  smgs: [
+  SMGs: [
     { 
       id: 4, 
       name: 'MP5', 
@@ -60,7 +78,7 @@ const initialGuns = {
       image: mp
     },
   ],
-  machineguns: [
+  Machineguns: [
     { 
       id: 5, 
       name: 'M249', 
@@ -98,11 +116,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Pew Pew</h1>
+        <Title>Pew Pew</Title>
       </header>
       <main>
         <nav className="menu">
-          <h2>Gun Types</h2>
+          <GunTypesText>Gun Types</GunTypesText>
           <ul>
             {Object.keys(guns).map((type) => (
               <li key={type}>
