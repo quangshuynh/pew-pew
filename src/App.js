@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import './App.css';
 
+import unknown from './assets/ammo/unknown.png'
 import nineMM from './assets/ammo/9mm.png';
 import twelvegauge from './assets/ammo/12gauge.png';
 import sevensixtwo from './assets/ammo/7.62x39.png';
@@ -38,7 +39,7 @@ const ammoImages = {
 };
 
 const getAmmoImage = (ammoType) => {
-  return ammoImages[ammoType] || 'https://via.placeholder.com/50?text=Ammo';
+  return ammoImages[ammoType] || unknown;
 };
 
 const initialGuns = {
