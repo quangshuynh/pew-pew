@@ -1,27 +1,40 @@
 {
   "files": {
-    "main.css": "/pew-pew/static/css/main.e29ad912.css",
-    "main.js": "/pew-pew/static/js/main.a1f10522.js",
+    "main.css": "/pew-pew/static/css/main.910cc0e3.css",
+    "main.js": "/pew-pew/static/js/main.fbcded0f.js",
     "static/js/453.4be05351.chunk.js": "/pew-pew/static/js/453.4be05351.chunk.js",
     "static/media/remington870.png": "/pew-pew/static/media/remington870.582391f4aa06eea67511.png",
+    "static/media/colt 1911.png": "/pew-pew/static/media/colt 1911.8590090694e803649023.png",
+    "static/media/glock34gen5mos.png": "/pew-pew/static/media/glock34gen5mos.2036297c28f299227063.png",
     "static/media/ak47.png": "/pew-pew/static/media/ak47.8b7ff4f8c7e1c1372253.png",
+    "static/media/m&p 9 2.0.webp": "/pew-pew/static/media/m&p 9 2.0.2b90c1ff6d68b8ee2817.webp",
     "static/media/12gauge.png": "/pew-pew/static/media/12gauge.d75fd26d1e792e8d2f52.png",
     "static/media/glock17.png": "/pew-pew/static/media/glock17.831d6157d5186516954f.png",
+    "static/media/m&p 5.7.webp": "/pew-pew/static/media/m&p 5.7.4f77c1622a55bfef399c.webp",
     "static/media/mp5.png": "/pew-pew/static/media/mp5.2e13d54e24e424c6307c.png",
+    "static/media/combatmaster.png": "/pew-pew/static/media/combatmaster.86b035a6b3a7bc19f095.png",
+    "static/media/.45 acp.png": "/pew-pew/static/media/.45 acp.89699a5533197b29c8d4.png",
     "static/media/7.62x39.png": "/pew-pew/static/media/7.62x39.23d8036bcab386d1293b.png",
     "static/media/5.56x45.png": "/pew-pew/static/media/5.56x45.46da2a233c01ee2742f2.png",
+    "static/media/mauser c96.png": "/pew-pew/static/media/mauser c96.3a5d11b38f0d6fed20c8.png",
+    "static/media/7.63x25.png": "/pew-pew/static/media/7.63x25.c62470afac8c64857d3d.png",
     "static/media/shotgun.hollow-regular.ttf": "/pew-pew/static/media/shotgun.hollow-regular.d1b16621dc71f3513e35.ttf",
+    "static/media/.50 ae.png": "/pew-pew/static/media/.50 ae.670c97fbd6f8831bad88.png",
     "static/media/9mm.png": "/pew-pew/static/media/9mm.1fdd9aca01e5bb9e8cc7.png",
+    "static/media/5.7x28.png": "/pew-pew/static/media/5.7x28.cefc6e869aaacafd511b.png",
+    "static/media/ak-50.png": "/pew-pew/static/media/ak-50.b64147652882482be3b3.png",
     "static/media/m249.webp": "/pew-pew/static/media/m249.ebd7ddb367733be82848.webp",
+    "static/media/pitviper.webp": "/pew-pew/static/media/pitviper.1c6fb4d75b227882d0f2.webp",
+    "static/media/deserteagle.webp": "/pew-pew/static/media/deserteagle.57f56c126f3c16dfc582.webp",
     "static/media/gunmetal.regular.ttf": "/pew-pew/static/media/gunmetal.regular.bc760098f694b5906fd5.ttf",
     "static/media/gunslinger.regular.ttf": "/pew-pew/static/media/gunslinger.regular.7e79c9233ab2853809c1.ttf",
     "index.html": "/pew-pew/index.html",
-    "main.e29ad912.css.map": "/pew-pew/static/css/main.e29ad912.css.map",
-    "main.a1f10522.js.map": "/pew-pew/static/js/main.a1f10522.js.map",
+    "main.910cc0e3.css.map": "/pew-pew/static/css/main.910cc0e3.css.map",
+    "main.fbcded0f.js.map": "/pew-pew/static/js/main.fbcded0f.js.map",
     "453.4be05351.chunk.js.map": "/pew-pew/static/js/453.4be05351.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e29ad912.css",
-    "static/js/main.a1f10522.js"
+    "static/css/main.910cc0e3.css",
+    "static/js/main.fbcded0f.js"
   ]
 }
